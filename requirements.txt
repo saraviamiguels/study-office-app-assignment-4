@@ -1,0 +1,5 @@
+# No version pins needed: the model is stored as XGBoost JSON + plain numbers (see portable.py), not a pickle.
+# xgboost-cpu = the same library without the ~300 MB GPU dependency that the plain package pulls in on Linux.
+streamlit
+pandas
+xgboost-cpu
